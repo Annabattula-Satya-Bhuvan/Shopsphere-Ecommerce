@@ -656,3 +656,55 @@ font-weight:bold;
 color:#22c55e;
 
 }
+
+.admin-page{
+
+padding:50px 8%;
+
+}
+
+.admin-form{
+
+display:grid;
+
+grid-template-columns:
+repeat(
+auto-fit,
+minmax(200px,1fr)
+);
+
+gap:15px;
+
+margin-bottom:40px;
+
+}
+
+.admin-card{
+
+background:var(--card);
+
+padding:20px;
+
+border-radius:15px;
+
+margin-bottom:15px;
+
+}
+
+.admin-card button{
+
+background:#ef4444;
+
+color:white;
+
+border:none;
+
+padding:10px 15px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+margin-top:10px;
+
+}
