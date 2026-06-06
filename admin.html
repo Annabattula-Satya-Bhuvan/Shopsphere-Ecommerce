@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+⚙️ Admin Dashboard
+</div>
+
+<ul class="nav-links">
+
+<li>
+<a href="#"
+onclick="logout()">
+Logout
+</a>
+</li>
+
+</ul>
+
+</nav>
+
+<section class="admin-page">
+
+<h1>
+Admin Dashboard
+</h1>
+
+<div class="admin-form">
+
+<input
+type="text"
+id="productName"
+placeholder="Product Name">
+
+<input
+type="number"
+id="productPrice"
+placeholder="Price">
+
+<select id="productCategory">
+
+<option>
+Electronics
+</option>
+
+<option>
+Accessories
+</option>
+
+</select>
+
+<input
+type="text"
+id="productImage"
+placeholder="Image URL">
+
+<button
+onclick="addProduct()">
+
+Add Product
+
+</button>
+
+</div>
+
+<h2>
+Products
+</h2>
+
+<div id="adminProducts">
+
+</div>
+
+<h2>
+Orders
+</h2>
+
+<div id="adminOrders">
+
+</div>
+
+</section>
+
+<script src="auth.js"></script>
+<script src="admin.js"></script>
+
+</body>
+
+</html>
